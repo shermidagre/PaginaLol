@@ -1,0 +1,594 @@
+/*COSAS GENERALES*/
+body {
+	background-color:#403E45;
+	margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+	width: 100%;
+  background-color: black;
+  color: #85C1E9;
+  text-align: center;
+  padding: 20px 0;
+}
+.menu {
+	width: 100%;
+	background-color: #1D1B1B;
+  color: #85C1E9;
+  text-align: center;
+  padding: 20px 0;
+  margin-top:15px;
+  color: white;
+}
+.encabezado h1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+.link {
+  width: 450px;
+  height: 680px;
+  font-size: 20px;
+  background-color:#26282C;
+  padding: 10px 0;
+  margin-top: 50px;
+  text-align: center;
+  margin-left:30px;
+  font-family: cursive;
+  border: 4px solid black;
+   border-radius: 50px;
+}
+.link > a> button{
+  border-radius: 1px;
+  background-color: #85C1E9;
+  border: none;
+  color: black;
+  width: 200px;
+  height: 60px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 17px;
+  cursor:pointer;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-top:30px;
+  
+}
+.link > a> button:hover {
+	color:white;
+	background:blue;
+}
+.lateral{
+    width: 450px;
+    height:690px;
+    font-size: 20px;
+    background-color: #26282C;
+    padding: 10px 0;
+    float: right;
+	text-align: center;
+    margin-left:30px;
+    margin-top: 50px;
+    border: 4px solid black;
+	border-radius: 50px;
+	margin-right: 40px;
+	font-family: Calibri;
+}
+
+
+	
+.lateral p {
+	color:white;
+}
+.lateral a {
+	color:#85C1E9;
+
+}
+.lateral a:hover {
+	color:blue;
+}
+.pie {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: 200px;
+  margin: 15;
+  padding: 30;
+}
+.pie p {
+	color:white;
+}
+.pie a:hover {
+	color:#85C1E9;
+}
+.pie a {
+	color: orange;
+}
+.logo {
+	position: absolute;
+    top: 52%;
+    left: 30%;
+}
+/*PAGINA NOVEDADES*/
+
+.fotos {
+	position: absolute;
+    top: 42%;
+    left: 30%;
+	
+
+	
+	
+}
+.fotos2 {
+	position: absolute;
+    top: 107%;
+    left: 53%;
+
+}
+.foto3 {
+	position: absolute;
+    top: 107%;
+    left: 9%; 
+	
+  
+
+}
+.textogta {
+	background-color: #26282C;
+	width: 750px;
+	height: 75px;
+	margin-left: 551px;
+	margin-top: -75px;
+	text-align: center;
+	font-family:cursive;
+	border: 2px solid black;
+	font-family: "Courier New", monospace;
+}
+.textogta p {
+	color:#85C1E9;
+}
+.textoark {
+	background-color: #26282C;
+	width: 747px;
+	height: 106px;
+	font-family: cursive;
+	text-align: center;
+	font-family:cursive;
+	margin-top: 541px;  
+    margin-left: 428px;
+    border: 2px solid black;
+    font-family: "Courier New", monospace;
+   
+}
+.textoark p {
+	color:#85C1E9;
+}
+.textopioner {
+	background-color:#26282C;
+	width: 746px;
+	height: 106px;
+	font-family: cursive;
+	text-align: center;
+	font-family:cursive;  
+    margin-left: 167px;
+    margin-top: 533px;
+    border: 2px solid black; 
+    font-family: "Courier New", monospace;   
+}
+.textopioner p {
+	color:#85C1E9;
+}
+/*PAGINA index*/
+.historia {
+	text-align: center;
+	margin-top:80px;
+	 font-family: "Courier New", monospace;   
+	 font-size:20px;
+}
+.historia p {
+	color:white;
+	
+}
+
+/*PAGINA COMPRA*/
+.paypal {
+	position: absolute;
+    top: 75%;
+    left: 29%;
+	
+}
+.mastercard {
+	position: absolute;
+    top: 30%;
+    left: 29%;
+	
+}
+.paysafe {
+	position: absolute;
+    top: 30%;
+    left: 51%;
+}
+
+.visa {
+	position: absolute;
+    top: 75%;
+    left:51%;
+}
+.piecomprar {
+	background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 800px;
+}
+.piecomprar a:hover {
+	color:#85C1E9;
+}
+.piecomprar a {
+	color: orange;
+}
+
+.custom-form {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #D5D8DC;
+    padding: 20px;
+    border-radius: 8px;
+	margin-top:20px;
+}
+
+.custom-form fieldset {
+    border: none;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 8px;
+    border-radius: 15px;
+    border: 3px solid black;
+    width: 98%;
+	
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/*PÁGINA TIENDA*/
+.rust {
+    position: absolute;
+    top: 28%;
+    left: 1%;
+}
+.textorust{
+    background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 18px;
+	margin-top: 460px;
+	text-align: center;
+	font-family:cursive;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textorust p {
+	color:white;
+}
+.textorust a {
+	color:red;
+}
+.textorust a:hover {
+	color: #0056b3;
+}
+.gta5 {
+	position: absolute;
+    top: 28%;
+    left: 38%;
+}
+.textogta5 {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 703px;
+	margin-top: -160px;
+	text-align: center;
+	font-family:cursive;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textogta5 p {
+	color: white;
+}
+.textogta5 a {
+	color: red;
+}
+.textogta5 a:hover {
+	color:#0056b3;
+}
+.fortnite {
+    position: absolute;
+    top: 28%;
+    left: 74%;
+}
+.textofortnite {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 1370px;
+	margin-top: -160px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textofortnite p {
+	color:white;
+}
+.textofortnite a {
+	color: red;
+}
+.textofortnite a:hover {
+	color:#0056b3;
+}
+.rocket {
+	position: absolute;
+    top: 98%;
+    left: 1%;
+}
+.textorocket {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 18px;
+	margin-top: 500px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textorocket p {
+	color:white;
+}
+.textorocket a {
+	color: red;
+}
+.textorocket a:hover {
+	color:#0056b3;
+}
+.league {
+   position: absolute;
+   left: 38%;
+   top:99%
+}
+.textoleague {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 703px;
+	margin-top: -155px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textoleague p {
+	color:white;
+}
+.textoleague a {
+	color: red;
+}
+.textoleague a:hover {
+	color:#0056b3;
+}
+.fifa {
+   position: absolute;
+   left: 74%;
+   top:99%
+}
+.textofifa {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 1370px;
+	margin-top: -162px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textofifa p {
+	color:white;
+}
+.textofifa a {
+	color: red;
+}
+.textofifa a:hover {
+	color:#0056b3;
+}
+.counter {
+	position: absolute;
+    top: 167%;
+    left: 1%;
+}
+.textocounter {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 18px;
+	margin-top: 474px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textocounter p {
+	color:white;
+}
+.textocounter a {
+	color: red;
+}
+.textocounter a:hover {
+	color:#0056b3;
+}
+.theforest {
+	position: absolute;
+    top: 167%;
+    left: 38%;
+}
+.textotheforest {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 702px;
+	margin-top: -161px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textotheforest p {
+	color:white;
+}
+.textotheforest a {
+	color: red;
+}
+.textotheforest a:hover {
+	color:#0056b3;
+}	
+.nba {
+	position: absolute;
+    top: 167%;
+    left: 74%;
+}
+.textonba {
+	background-color: #26282C;
+    width: 448px;
+    height: 160px;
+	margin-left: 1370px;
+	margin-top: -165px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: "Courier New", monospace;
+	font-size:16px;
+}
+.textonba p {
+	color:white;
+}
+.textonba a {
+	color: red;
+}
+.textonba a:hover {
+	color:#0056b3;
+}	
+/*PÁGINA ACCESORIOS*/
+.tabla {
+	width:700px;
+	margin-left: 575px;
+	margin-top:-1000px;
+	
+}
+.tabla td {
+	background-color:black;
+	border-color: black;
+	font-family: Calibri;
+	size: 18px;
+}
+.tabla td p {
+	color:#E7BB64;
+}
+.tabla td a {
+	color:red;
+}
+.tabla td a:hover {
+	color: #0056b3;
+}
+/*PÁGINA SESION*/
+.textosesion {
+	width:700px;
+	height:600px;
+	margin-left:550px;
+	margin-top:-700px;
+}
+.textosesion p {
+	color:#E7BB64;
+}
+.textosesion li {
+	color:#E7BB64;
+}
+.cuenta {
+	margin-left: -10px;
+	margin-top: 60px;
+	
+	
+}
+.cuadro input {
+	color:black;
+}
+.confirmar {
+	display: block;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+}
+.confirmar:hover {
+	background-color: #38C8DE;
+}
+.nombre {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.nombre fieldset {
+    border: none;
+    padding: 0;
+}
+
+
+.nombre label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.nombre input {
+    padding: 8px;
+    width: 35%;
+}
+
+
+
