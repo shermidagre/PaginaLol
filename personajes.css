@@ -1,3 +1,6 @@
+
+/*Body*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,6 +18,8 @@ body {
     width: 100%;
 }
 
+/*Image*/
+
 .form-container {
     flex: 0.5;
     background-color: white;
@@ -30,15 +35,17 @@ body {
     position: relative; /* Para posicionar la imagen */
 }
 
+
 .image-container img {
     position: absolute; /* Permite que la imagen cubra todo el contenedor */
     top: 0;
     left: 0;
     width: 100%; /* Asegura que la imagen cubra todo el ancho */
     height: 100%; /* Asegura que la imagen cubra toda la altura */
-    object-fit: cover; /* Mantiene la proporción de la imagen y cubre el contenedor */
-    filter: contrast(1.5) brightness(1.3);
+    /* filter: contrast(1.2) brightness(1.4); */
 }
+
+/*Username Pasword*/
 
 form {
     width: 100%;
@@ -69,4 +76,26 @@ button:hover {
     background-color: #0056b3;
 }
 
-/**/
+.iniciarsesion{
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    font-family: "Jacquard 12", serif;
+    font-weight: 1500;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+/*Crea cuenta*/
+
+.crearcuenta{
+
+    margin-top: 70px;
+    text-align: center;
+    font-family: "Jacquard 12", serif;
+    font-weight: 1500;
+    font-style: normal;
+    font-size: 30px;
+}
