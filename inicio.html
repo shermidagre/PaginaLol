@@ -2,47 +2,77 @@
 
 <html lang="es">
 
-<head>
+    <head>
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Página de Inicio</title>
-
-</head>
-
-<body>
-
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="inicio.css" title="style">
+    
+        <link rel="icon" href="../imagen/favicon.ico" type="image/x-icon">
+    
+        <title>Crear cuenta</title>
+    
+    </head>
 
 <header>
 
-    <h1>Bienvenido a la pagina de inicio</h1>
-
-    <button class="inicio" onclick="toggleMenu()">☰</button>
-
-    <div class="menu" id="menu">
-
-        <a href="#home">Inicio</a>
-
-        <a href="#services">Servicios</a>
-
-        <a href="#about">Acerca de</a>
-
-        <a href="#contact">Contacto</a>
-
-    </div>
+    <body>
+        
+    <h1>Bienvenido a nuestra Página</h1>
 
 </header>
 
 
-<div class="content">
+<div class="Contenido">
 
     <h2>Contenido Principal</h2>
 
-    <p>Este es un ejemplo de una página de inicio básica con un menú desplegable.</p>
+    <div class="container">
 
-    <p>Haz clic en el ícono de hamburguesa para ver las opciones del menú.</p>
+        <div class="card">
+
+            <h2>Colaboradores</h2>
+
+            <p>Aqui se encontraran nuestros colaboradores principales </p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Título 2</h2>
+
+            <p>Descripción breve.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Título 3</h2>
+
+            <p>Descripción breve.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Título 4</h2>
+
+            <p>Descripción breve.</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="pie">
+
+    <p>&copy; 2023 Mi Página. Todos los derechos reservados.</p>
+
+    <p><a href="#privacy">Política de Privacidad</a> | <a href="#terms">Términos de Servicio</a></p>
 
 </div>
 
@@ -53,7 +83,7 @@
 
         const menu = document.getElementById('menu');
 
-        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        menu.classList.toggle('show'); // Alterna la clase 'show' para mostrar/ocultar el menú
 
     }
 
@@ -62,4 +92,4 @@
 
 </body>
 
-</html
+</html>
