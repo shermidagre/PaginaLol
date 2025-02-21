@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Página de Inicio</title>
+
+</head>
+
+<body>
+
+
+<header>
+
+    <h1>Bienvenido a la pagina de inicio</h1>
+
+    <button class="inicio" onclick="toggleMenu()">☰</button>
+
+    <div class="menu" id="menu">
+
+        <a href="#home">Inicio</a>
+
+        <a href="#services">Servicios</a>
+
+        <a href="#about">Acerca de</a>
+
+        <a href="#contact">Contacto</a>
+
+    </div>
+
+</header>
+
+
+<div class="content">
+
+    <h2>Contenido Principal</h2>
+
+    <p>Este es un ejemplo de una página de inicio básica con un menú desplegable.</p>
+
+    <p>Haz clic en el ícono de hamburguesa para ver las opciones del menú.</p>
+
+</div>
+
+
+<script>
+
+    function toggleMenu() {
+
+        const menu = document.getElementById('menu');
+
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+
+    }
+
+</script>
+
+
+</body>
+
+</html
