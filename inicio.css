@@ -1,103 +1,103 @@
 body {
 
-            font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
-            text-align: center;
+    text-align: center;
 
-            background-color: #0a0a14;
+    background-color: #0a0a14;
 
-            color: #c8aa6e;
+    color: #c8aa6e;
 
-            margin: 0;
+    margin: 0;
 
-            padding: 0;
+    padding: 0;
 
-        }
-
-
-        header {
-
-            background-color: #333;
-
-            color: white;
-
-            padding: 10px;
-
-            position: relative;
-
-        }
+}
 
 
-        .hamburger {
+header {
 
-            cursor: pointer;
+    background-color: #333;
 
-            font-size: 24px;
+    color: white;
 
-            background: none;
+    padding: 10px;
 
-            border: none;
+    position: relative;
 
-            color: white;
-
-        }
+}
 
 
-        .container {
+.Inicio {
 
-            display: flex;
+    cursor: pointer;
 
-            flex-wrap: wrap;
+    font-size: 24px;
 
-            justify-content: center;
+    background: none;
 
-            gap: 30px;
+    border: none;
 
-            padding: 20px;
+    color: white;
 
-        }
-
-
-        .card {
-
-            background: linear-gradient(180deg, #1e2328, #111);
-
-            padding: 30px;
-
-            margin: 10px;
-
-            border-radius: 15px;
-
-            width: 190px;
-
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-
-            border: 1px solid #c8aa6e;
-
-            text-align: center;
-
-        }
+}
 
 
-        .pie {
+.container {
 
-            background-color: black;
+    display: flex;
 
-            color: #fff;
+    flex-wrap: wrap;
 
-            padding: 20px;
+    justify-content: center;
 
-            text-align: center;
+    gap: 30px;
 
-            width: 100%;
+    padding: 20px;
 
-            margin-top: 30px;
-
-        }
+}
 
 
-        .pie a {
+.card {
 
-            color: orange;
+    background: linear-gradient(180deg, #1e2328, #111);
 
-        }
+    padding: 30px;
+
+    margin: 10px;
+
+    border-radius: 15px;
+
+    width: 190px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+
+    border: 1px solid #c8aa6e;
+
+    text-align: center;
+
+}
+
+
+.pie {
+
+    background-color: black;
+
+    color: #fff;
+
+    padding: 20px;
+
+    text-align: center;
+
+    width: 100%;
+
+    margin-top: 30px;
+
+}
+
+
+.pie a {
+
+    color: orange;
+
+}
