@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     margin: 0;
     padding: 0;
@@ -11,53 +10,50 @@ body {
     position: relative;
 }
 
-/* Efecto de oscurecimiento del fondo */
-body::before {
+body::before {/*oscurecer*/
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+    background: rgba(0, 0, 0, 0.5); 
     z-index: -1;
 }
 
-/* Contenedor principal */
-.container {
+.pagina {
     display: flex;
     width: 100%;
     height: 100%;
 }
 
-/* Barra lateral */
-.sidebar {
+.indice {
     flex: 0.2;
-    background-color: rgba(51, 51, 51, 0.8); /* Fondo semitransparente */
+    background-color: rgba(51, 51, 51, 0.8); 
     color: white;
     padding: 20px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra la lista */
+    align-items: center; 
 }
 
-.sidebar h2 {
+.indice h2 {
     font-size: 1.5rem;
     margin-top: 20px;
 }
 
-.sidebar ul {
+.indice ul {
     list-style: none;
     padding: 0;
-    margin-top: 30px; /* Margen superior */
+    margin-top: 30px; 
 }
 
-.sidebar li {
+.indice li {
     margin: 10px 0;
 }
 
-.sidebar a {
+.indice a {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
@@ -66,12 +62,11 @@ body::before {
     text-align: center;
 }
 
-.sidebar a:hover {
+.indice a:hover {
     background-color: #555;
 }
 
-/* Contenido principal */
-.content {
+.recuadro {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -80,8 +75,7 @@ body::before {
     padding: 20px;
 }
 
-/* Recuadro central con transparencia */
-.info-container {
+.contenido {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 10px;
@@ -92,8 +86,7 @@ body::before {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Contenido de texto */
-.text-content {
+.texto {
     flex: 1;
     padding-right: 20px;
 }
@@ -115,18 +108,16 @@ ul li {
     list-style: disc;
 }
 
-/* Imagen del personaje dentro del recuadro */
-.image-container {
+.imagen {
     max-width: 250px;
 }
 
-.image-container img {
+.imagen img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Botón para volver atrás */
 a button {
     margin-top: 20px;
     padding: 10px 20px;
