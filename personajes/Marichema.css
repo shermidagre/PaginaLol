@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     height: 100vh;
-    background: url('imagenesfondo/fondochema.jpg') no-repeat center center;
+    background: url('../imagenesfondo/fondochema.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
     display: flex;
