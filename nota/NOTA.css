@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(146, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.denegado {
+    max-width: 80%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.texto_secreto{
+    color: rgb(146, 8, 8);
+}
