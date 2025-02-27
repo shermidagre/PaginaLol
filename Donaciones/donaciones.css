@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #0a0a14;
+    color: #c8aa6e;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card {
+    background: linear-gradient(180deg, #1e2328, #111);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 190px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border: 1px solid #c8aa6e;
+    text-align: center;
+}
+
+.card img {
+    width: 170px;
+    max-height: 150px;
+    border-radius: 10px;
+    border: 2px solid #c8aa6e;
+}
+
+h1 {
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(200, 170, 110, 0.7);
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+.pie {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    
+  }
+.pie a {
+    color:orange;
+}
+
+.form-group {
+    text-align: center;
+    margin: 15px;
+}
+
+.btn {
+    margin: 15px;
+}
+
+.paypal {
+    margin:50px;
+}
+.mastercard{
+    margin:50px;
+}
+.paysafe{
+    margin:50px;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+  
