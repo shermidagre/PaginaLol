@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de Sesión</title>
     <link rel="stylesheet" href="personajes.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -17,33 +16,38 @@
 
 
 <body>
+
     <div class="container">
+
         <div class="form-container">
 
-            <form>
+            <form id="loginForm">
+
                 <div class="iniciarsesion">
-                    <h2 style="text-align: center;  margin-bottom: 20px;">Iniciar Sesión</h2>
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" style="margin-bottom: 40px;" required>
-                
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                
-                <a href="Seleccionapartados/inicio.html">Entrar</a>
-            </div>
-                <div class="crearcuenta" >
-                        <a href="Creacion%20de%20cuenta/formularioLOL.html">Crear cuenta</a>
-                        <img style="margin-top: 100px;" src="portada/shaco.gif" alt="Imagen de fondo">
+                    <h2 style="text-align: center; margin-bottom: 20px;">Iniciar Sesión</h2>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" style="margin-bottom: 40px;" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button href="Seleccionapartados/inicio.html" type="submit" >Entrar</button>
                 </div>
+
+                <div class="crearcuenta">
+                    <a href="../PaginaLol/Creacion de cuenta/formularioLOL.html">Crear cuenta</a>
+                    <img style="margin-top: 100px;" src="portada/shaco.gif" alt="Imagen de fondo">
+                </div>
+
             </form>
 
         </div>
-        <script src="script.js"></script> <!-- Incluir el archivo JavaScript externo -->
+
         <div class="image-container">
             <img src="portada/garen.gif" alt="Imagen de fondo">
         </div>
-        <div>
-        </div>
+
     </div>
+
+    <script src="script.js"></script> <!-- Incluir el archivo JavaScript externo -->
+
 </body>
 </html>
