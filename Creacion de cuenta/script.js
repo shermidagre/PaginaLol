@@ -31,7 +31,7 @@ try {
         console.log('Usuarios guardados en localStorage:', JSON.parse(localStorage.getItem('users')));
 
         alert('Cuenta creada exitosamente. Puedes iniciar sesión ahora.');
-        window.location.href = 'index.html'; // Redirigir a la página de inicio de sesión
+        window.location.href = '../personajes.html'; // Redirigir a la página de inicio de sesión
     });
 
     // Manejar el evento de envío del formulario de inicio de sesión

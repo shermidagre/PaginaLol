@@ -31,7 +31,7 @@ try {
         console.log('Usuarios guardados en localStorage:', JSON.parse(localStorage.getItem('users')));
 
         alert('Cuenta creada exitosamente. Puedes iniciar sesión ahora.');
-        window.location.href = 'file:///home/dam/Documentos/PaginaLol/Seleccionapartados/inicio.html'; // Redirigir a la página de inicio de sesión
+        window.location.href = '../personajes.html'; // Redirigir a la página de inicio de sesión
     });
 
     // Manejar el evento de envío del formulario de inicio de sesión
@@ -49,7 +49,7 @@ try {
         // Verificar si el usuario existe
         if (user) {
             alert('Inicio de sesión exitoso');
-            window.location.href = 'file:///home/dam/Documentos/PaginaLol/Seleccionapartados/inicio.html'; // Redirigir a la página de inicio
+            window.location.href = '../PaginaLol/Seleccionapartados/inicio.html'; // Redirigir a la página de inicio
         } else {
             alert('Nombre de usuario o contraseña incorrectos');
         }
