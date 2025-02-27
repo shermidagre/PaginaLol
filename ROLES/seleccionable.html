@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionable 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            margin-top: 20px;
+            position: relative;
+        }
+        .left-box {
+            width: 35%;
+            height: 600px;
+            background-color: #ddd;
+            padding: 20px;
+            box-sizing: border-box;
+            position: absolute;
+            left: -50px;
+        }
+        .right-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 60%;
+            margin-left: auto;
+            padding-right: 20px;
+        }
+        .media-box {
+            background-color: #bbb;
+            height: 180px;
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .media-box:nth-child(2) {
+            align-self: flex-start;
+        }
+        .media-box:nth-child(3) {
+            align-self: flex-end;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seleccionable 1</h1>
+    <div class="content">
+        <div class="left-box">
+            <h2>Líder 1</h2>
+            <p>Pequeño texto descriptivo sobre el líder.</p>
+            <ul>
+                <li>Palabra 1</li>
+                <li>Palabra 2</li>
+                <li>Palabra 3</li>
+            </ul>
+        </div>
+        <div class="right-box">
+            <div class="media-box">Imagen/Video 1</div>
+            <div class="media-box">Imagen/Video 2</div>
+            <div class="media-box">Imagen/Video 3</div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Los roles en LOL no son estrictos.</p>
+        <a href="index.html" class="back-button">Volver</a>
+    </div>
+</body>
+</html>
