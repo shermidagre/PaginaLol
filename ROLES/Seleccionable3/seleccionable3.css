@@ -1,0 +1,127 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Tipo de fuente */
+.body roboto-slab-body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+/* Título */
+h1 {
+    margin: 20px 0;
+    color: white;
+}
+/*Body de imagen de fondo */
+body{
+    
+    background-image: url('galeriaS3/fondoS3.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el body */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    padding: 0;
+}
+.content {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+/* Cuadro de la izquierda*/
+.left-box {
+    width: 35%;
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: -50px;
+    transition: border-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+/* imagen izquierda */
+.left-box { 
+    background-image: url('galeriaS3/fondoLeftS3.png'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el body */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.left-box:hover {
+   
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño */
+    border-color: #6beafb; /* Color del borde para Mid Lane */
+    box-shadow: 0 0 15px rgba(99, 240, 250, 0.918); /* Sombra de color */
+   
+}
+
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+    margin-left: auto;
+    padding-right: 20px;
+ 
+}
+
+.media-box {
+    background-color: #bbb;
+    height: 200px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+.media-box:hover{
+    border-color: #6beafb; /* Color del borde para Mid Lane */
+    box-shadow: 0 0 15px rgba(99, 240, 250, 0.918); /* Sombra de color */ 
+}
+.media-box video{ /* Ajustar vídeo dentro del cuadro media box*/ 
+    width: 100%; /* Ancho completo del cuadro */
+    height: 100%; /* Alto completo del cuadro */
+    object-fit: cover; /* Cubre todo el cuadro sin distorsionar la imagen */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+.media-box:nth-child(2) {
+    align-self: flex-start;
+}
+.media-box:nth-child(3) {
+    align-self: flex-end;
+}
+/* Volver atrás */ 
+.back-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 10px;
+    background-color: #d0d0d0;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.back-button:hover {
+    background-color: #868686;
+}
+/* Frase última */
+.footer {
+    text-align: center;
+    margin-top: 50px; /* Indica el aumento de tamaño del exterior del elemento, mientras que el padding es el aumento de tamaño del ELEMENTO*/
+    margin-bottom: 20px; /* espacio debajo*/ 
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
