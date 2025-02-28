@@ -1,0 +1,43 @@
+/* Estilo básico para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d; /* Color de fondo oscuro */
+    color: white;
+    overflow: hidden; /* Evita que aparezcan barras de desplazamiento */
+}
+
+/* Estilo para el aviso inicial */
+#aviso {
+    background-color: rgba(136, 22, 22, 0.7); /* Fondo oscuro con algo de transparencia */
+    color: white;
+    font-size: 24px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 1s ease; /* Transición suave para la desaparición */
+}
+
+/* Efecto de desaparición del aviso */
+.fade-out {
+    opacity: 0; /* Hace desaparecer el aviso */
+    pointer-events: none; /* Evita que se haga clic después de desaparecer */
+}
+
+/* Estilo para el GIF (oculto al principio) */
+#gif-fondo {
+    display: none; /* El GIF está oculto por defecto */
+    position: fixed; /* Posición fija para que ocupe toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    object-fit: cover; /* Asegura que el GIF cubra toda el área sin distorsionarse */
+    z-index: -1; /* Coloca el GIF detrás del contenido */
+}

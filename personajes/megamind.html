@@ -6,8 +6,11 @@
     <title>megamind - Personaje</title>
     <link rel="stylesheet" href="megamind.css">
 </head>
-<body>
+<body onload="playSound()">
     
+     <!-- Elemento de audio oculto -->
+     <audio id="audio" src="../audios/mamador.ogg" preload="auto"></audio>
+
     <div class="pagina">
         <nav class="indice">
             <h2>Personajes</h2>
@@ -15,9 +18,9 @@
                 <li><a href="Marichema.html">Marichema</a></li>
                 <li><a href="hanzomola.html">Hanzomola</a></li>
                 <li><a href="megamind.html">Megamind</a></li>
-                <li><a href="gymbro.html">Gymbro</a></li>
+                <li><a href="sandark.html">Gymbro</a></li>
                 <li><a href="Manin.html">Manin</a></li>
-                <li><a href="alexandre.html">Alexandre</a></li>
+                <li><a href="sandark.html">sandark</a></li>
                 <li><a href="casillas.html">Casillas</a></li>
                 <li><a href="frigaucho.html">Frigaucho & Abuelowski</a></li>
                 <li><a href="borja.html">Borja</a></li>
@@ -36,6 +39,7 @@
                 <div class="texto">
                     <h1>Megamind</h1>
                     <p><strong>Rol:</strong> Criminal</p>
+                    <button onclick="playSound()">Reproducir Sonido</button>
                     <p>Megamind no puede albergar tanto conocimiento explosivo en un cuerpo normal y corriente, es por eso que fue en busca de Dr.███████, el cual mediante los experimentos desarrollados el ██-██-1940 en ████████, consiguió agrandar su frente un aproximado de 673% para almacenar toda esta informacion y conocimiento.</p>
                     <p>Ahora mismo está en paradero desconocido, ya que escapó de la base █████-██-███ creando una brecha de contención y liberando a más prisioneros; solo se halló una <a href="../nota/NOTA.html">nota</a> del Dr.███████ . La última vez visto fue en ucrania hace █ meses en la ciudad de ████, segun los testigos dicen que buscaba sitio para aparcar.</p>
 
@@ -62,5 +66,23 @@
             </div>
         </div>
     </div>
+    <!-- Script para reproducir el sonido -->
+    <script>
+        function playSound() {
+            const audio = document.getElementById('audio');
+            audio.play().then(() => {
+                console.log('Sonido reproducido correctamente');
+            }).catch(error => {
+                console.error('El sonido no se reprodujo automáticamente: ', error);
+            });
+        }
+        window.addEventListener('click', () => {
+        const audio = document.getElementById('audio');
+        audio.play().catch(error => {
+            console.warn('El sonido no se reprodujo automáticamente: ', error);
+        });
+    }, { once: true }); // Solo se ejecuta la primera vez que el usuario hace clic
+
+    </script>
 </body>
 </html>
