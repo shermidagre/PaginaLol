@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: url('../imagenesfondo/Oliver.jpeg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+body::before {/*oscurecer*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+
+.pagina {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.indice {
+    flex: 0.2;
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.indice h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.indice ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px; 
+}
+
+.indice li {
+    margin: 10px 0;
+}
+
+.indice a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.indice a:hover {
+    background-color: #555;
+}
+
+.recuadro {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+.contenido {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.texto {
+    flex: 1;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p, ul {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+ul li {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.imagen {
+    max-width: 250px;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+a button:hover {
+    background-color: #0056b3;
+}
+
+.star {
+    color: #ec1414;
+}

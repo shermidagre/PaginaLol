@@ -4,8 +4,6 @@ body {
     background-size: cover; /* Ajusta la imagen para cubrir todo el body */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    margin: 0;
-    padding: 0;
 }
 /* Tipo de fuente */
 .body roboto-slab-body {
@@ -96,12 +94,12 @@ h1 {
 
 /* Frase última */
 .footer {
-    margin-top: 60px;
-    font-size: 15px;
+    margin-top: 180px;
+    font-size: 20px;
     color: rgb(152, 164, 180);
     font-weight: bold;
 }
-/* Volver atrás */ 
+/* Volver atrás */
 .back-button {
     display: inline-block;
     margin-top: 10px;
