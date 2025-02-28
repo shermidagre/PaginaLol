@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sandark</title>
+    <link rel="stylesheet" href="sandark.css"> <!-- Aquí se conecta con el archivo CSS -->
+</head>
+<body>
+    <!-- Aviso inicial para el usuario -->
+    <div id="aviso" onclick="iniciarExperiencia()">
+        Peligro, no clickar
+    </div>
+
+    <!-- GIF de fondo (oculto al inicio) -->
+    <img id="gif-fondo" src="../gif/killer-queen-jojo.gif" alt="GIF de fondo">
+
+    <!-- Elementos de audio para los dos sonidos -->
+    <audio id="audio1" src="../audios/killa-queen.mp3" preload="auto"></audio>
+    <audio id="audio2" src="../audios/killer-queen-bite-the-dust-sound-effect-made-with-Voicemod.mp3" preload="auto"></audio>
+
+    <script>
+        function iniciarExperiencia() {
+            // Oculta el aviso inicial
+            const aviso = document.getElementById('aviso');
+            aviso.classList.add('fade-out');
+
+            // Muestra el GIF de fondo
+            const gifFondo = document.getElementById('gif-fondo');
+            gifFondo.style.display = 'block';
+
+            // Reproduce los sonidos
+            const audio1 = document.getElementById('audio1');
+            const audio2 = document.getElementById('audio2');
+            audio1.play().catch(err => console.warn('El sonido 1 no se reprodujo automáticamente', err));
+            audio2.play().catch(err => console.warn('El sonido 2 no se reprodujo automáticamente', err));
+
+            // Redirige después de 5 segundos
+            setTimeout(() => {
+                window.location.href = '../Colaboradores/pag2.html';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
